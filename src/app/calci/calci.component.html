@@ -1,0 +1,28 @@
+
+<div class="main">
+    <div  class="calculator">
+  
+      <div class="display" [ngModel]="displayValue">
+      {{displayValue}}
+      </div>
+      <div  class="keys">
+      <button (click)="onEquation('+')">+</button>
+      <button (click)="onEquation('-')">-</button>
+      <button (click)="onEquation('*')">*</button>
+      <button class="equals" (click)="onOperation()">=</button>
+      <button (click)="onEquation('/')">/</button>
+      <button (click)="onNumber('7')">7</button>
+      <button (click)="onNumber('8')">8</button>
+      <button (click)="onNumber('9')">9</button>
+      <button (click)="onNumber('4')">4</button>
+      <button (click)="onNumber('5')">5</button>
+      <button (click)="onNumber('6')">6</button>
+      <button (click)="onNumber('3')">3</button>
+      <button (click)="onNumber('2')">2</button>
+      <button (click)="onNumber('1')"> 1</button>
+      <button (click)="onNumber('0')">0</button>
+      <button (click)="onNumber('.')">.</button>
+      <button (click)="onAllClear()">AC</button>
+      </div>
+    </div>
+  </div>
