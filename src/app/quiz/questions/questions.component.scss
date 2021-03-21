@@ -1,0 +1,17 @@
+.question{
+text-align: center;
+}
+.options{
+    text-align: center;
+    cursor: pointer;
+}
+.correct1{
+    color:green;
+    
+}
+.incorrect1{
+    color:red;
+}
+.disabled{
+    cursor:not-allowed;
+}

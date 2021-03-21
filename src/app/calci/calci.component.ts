@@ -18,7 +18,7 @@ export class CalciComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onNumber(val: number) {
+  onNumber(val: any) {
     if (this.displayValue === 0) {
       this.value = val;
       this.displayValue = this.value;
